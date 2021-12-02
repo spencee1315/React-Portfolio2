@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Projects from './Projects';
 
-function ProjectViewer () {
+function Portfolio () {
     return (
         <Fragment>
             <Projects />
@@ -9,7 +9,7 @@ function ProjectViewer () {
     )
 }
 
-export default ProjectViewer;
+export default Portfolio;
 
 <section id="projects">
     <div className="container">

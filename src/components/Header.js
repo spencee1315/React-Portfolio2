@@ -1,17 +1,21 @@
 import React from 'react';
+import avatar from '../images/me.jpg';
 
 function Header() {
     return (
         <main className="container background-trans-50">
-           <h1>
-               Elliott Spencer's Portfolio
-           </h1>
-           <h2>
-               A Full Stack Web Developer
-           </h2>
-           <p className="lead hide-on-small">
-               Welcome to my portfolio page. Below are a series of projects as I dive deeper into this amazing subject.
-           </p>
+          <div className="container-fluid">
+				    <div className="row text-center align-items-center">
+					    <div className="col">
+						    <img src={avatar} alt="User avatar" className="avatar" />
+						    <p className="display-6">Elliott Spencer's Portfolio</p>
+						    <p> A Full Stack Web Developer</p>
+                <p className="lead hide-on-small">
+                  Welcome to my portfolio page. Below are a series of projects as I dive deeper into this amazing subject.
+                </p>
+					    </div>
+				    </div>
+			    </div>
         </main>
     );
 };
