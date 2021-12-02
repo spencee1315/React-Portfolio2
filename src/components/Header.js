@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../images/me.jpg';
+import avatar from '../images/me.jpeg';
 
 function Header() {
     return (
