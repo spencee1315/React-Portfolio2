@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import './App.css';
 
 // importing components
 import About from "./components/About";
@@ -11,13 +13,21 @@ import Social from "./components/Social";
 function App() {
   return (
     <Router>
+      <div id="features">
       <Header />
-      <Routes>
-        <Route element={About()} path='/' exact />
-        <Route element={Portfolio()} path='/portfolio' exact />
-        <Route element={Social()} path='/social' exact />
-      </Routes>
+      </div>
+      <div>
+      <About />
+      </div>
+      <div>
+      <Portfolio />
+      </div>
+      <div>
+      <Social />
+      </div>
+      <div id="features">
       <Footer />
+      </div>
     </Router>
   )
 }
