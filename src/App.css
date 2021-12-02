@@ -25,7 +25,7 @@ a {
 }
 
 /* Nav */
-
+/* 
 nav {
     height: 40px;
     width: 100%;
@@ -63,7 +63,7 @@ nav li:hover {
 
 nav a#openup {
     display: none;
-}
+} */
 
 /* Features */
 
@@ -78,7 +78,7 @@ nav a#openup {
 }
 
 #features .container {
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 #features h1 {
@@ -125,6 +125,43 @@ nav a#openup {
    margin: 0 auto;
    padding: 0 3rem;
 }
+/* About */
+#about {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    /* background: url(./images/hero3.jpg) no-repeat center/cover; */
+    width: 80%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+    text-align: justify;
+}
+
+#about .section {
+    padding: 2rem 0;   
+}
+
+#about .container {
+    margin-top: 25vh;
+}
+
+#about h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+
 
 /* Projects */
 
@@ -144,6 +181,12 @@ nav a#openup {
 
 
 /* Img and Effects */
+.avatar {
+	width: 250px;
+	height: 300px;
+	border-radius: 50%;
+	margin: 1rem;
+}
 
 img {
    width: 100%;

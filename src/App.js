@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 
 // importing components
-import About from "./components/About";
+import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
@@ -16,8 +16,8 @@ function App() {
       <div id="features">
       <Header />
       </div>
-      <div>
-      <About />
+      <div id="about">
+      <AboutMe />
       </div>
       <div>
       <Portfolio />
