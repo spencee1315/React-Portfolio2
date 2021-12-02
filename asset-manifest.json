@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio2/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/React-Portfolio2/static/js/main.ab200c72.chunk.js",
+    "main.js.map": "/React-Portfolio2/static/js/main.ab200c72.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio2/static/js/runtime-main.07bcf302.js",
+    "runtime-main.js.map": "/React-Portfolio2/static/js/runtime-main.07bcf302.js.map",
+    "static/js/2.60097456.chunk.js": "/React-Portfolio2/static/js/2.60097456.chunk.js",
+    "static/js/2.60097456.chunk.js.map": "/React-Portfolio2/static/js/2.60097456.chunk.js.map",
+    "index.html": "/React-Portfolio2/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/React-Portfolio2/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.60097456.chunk.js.LICENSE.txt": "/React-Portfolio2/static/js/2.60097456.chunk.js.LICENSE.txt",
+    "static/media/EchoChamber.957ffbb1.png": "/React-Portfolio2/static/media/EchoChamber.957ffbb1.png",
+    "static/media/fitnessTracker.be5fe642.png": "/React-Portfolio2/static/media/fitnessTracker.be5fe642.png",
+    "static/media/me.2b27558d.jpeg": "/React-Portfolio2/static/media/me.2b27558d.jpeg",
+    "static/media/noteTaker.83bc4918.png": "/React-Portfolio2/static/media/noteTaker.83bc4918.png",
+    "static/media/weatherApp.24bc29d0.png": "/React-Portfolio2/static/media/weatherApp.24bc29d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07bcf302.js",
+    "static/js/2.60097456.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.ab200c72.chunk.js"
+  ]
+}
