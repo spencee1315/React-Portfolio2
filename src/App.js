@@ -1,4 +1,7 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// importing components
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -7,15 +10,15 @@ import Social from "./components/Social";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Header />
-    <Switch>
-      <Route component={About()} path='/' exact />
-      <Route component={Portfolio()} path='/portfolio' exact />
-      <Route component={Social()} path='/social' exact />
-    </Switch>
-    <Footer />
-    </BrowserRouter>
+    <Router>
+      <Header />
+      <Routes>
+        <Route element={About()} path='/' exact />
+        <Route element={Portfolio()} path='/portfolio' exact />
+        <Route element={Social()} path='/social' exact />
+      </Routes>
+      <Footer />
+    </Router>
   )
 }
 
