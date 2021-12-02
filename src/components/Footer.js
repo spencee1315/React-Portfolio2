@@ -1,9 +1,8 @@
 import React from 'react';
-import { SocialIcon } from "react-social-icons";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="features">
         <h6>&copy; Elliott Spencer's Portfolio</h6>
     </footer>
   )
